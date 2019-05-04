@@ -7,7 +7,9 @@ Plugin que habilita a validação de CNPJ ou CPF com um hook do Gravity Forms.
 - Este plugin vai funcionar se você tiver *ambos* os campos CPF e CNPJ no mesmo formulário.
 
 **Adaptações a partir do original**
-[Plugin original de JP Tibério] (https://github.com/jptiberio/GravityForms-Valida-CPF-CNPJ "jptiberio / GravityForms-Valida-CPF-CNPJ")
+
+Plugin original de JP Tibério: https://github.com/jptiberio/GravityForms-Valida-CPF-CNPJ
+
 - Verificar mais de um campo no mesmo formulário.
 - Verificar se a classe de validação existe no campo, mesmo que existam outras classes configuradas.
 - Mensagens de erro específicas por tipo (CPF ou CNPJ), usando classes adicionais.
