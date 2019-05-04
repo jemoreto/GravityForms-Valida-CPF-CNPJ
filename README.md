@@ -1,4 +1,4 @@
-# GravityForms-Valida-CPF-CNPJ
+# Gravity Forms Valida CPF e CNPJ
 
 ### Plugin que habilita a validação de CNPJ ou CPF com um hook do Gravity Forms.
 
