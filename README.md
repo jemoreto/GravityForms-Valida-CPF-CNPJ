@@ -16,4 +16,11 @@ Plugin original de JP Tibério: https://github.com/jptiberio/GravityForms-Valida
 - Mensagens de erro específicas por tipo (CPF ou CNPJ), usando classes adicionais.
 - Não usar a validação se o campo está oculto pela condicional lógica do Gravity Forms.
 
+
+### Compatibilidade:
+
+Este plugin foi testado com:
+- Gravity Forms versão 2.4.8.9
+- WordPress versão 5.1.1
+
 **Este plugin é uma contribuição com a comunidade de desenvolvedores. Não há nenhuma garantia ou responsabilidade do autor sobre o uso em seu projeto. Use por sua conta e risco.**
