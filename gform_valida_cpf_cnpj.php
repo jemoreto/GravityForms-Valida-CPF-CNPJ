@@ -29,17 +29,17 @@ if ( is_plugin_active('gravityforms/gravityforms.php') ) {
 		foreach( $form['fields'] as $field ) {
 
 
-			if ( strpos( $field->cssClass, 'validar_cpf_cnpj' ) !== false ) {
+			if ( strpos( $field->cssClass, 'q11_validar_cpf_cnpj' ) !== false ) {
 				
 				$msg_validacao = 'CPF ou CNPJ inválido';
-				if ( strpos( $field->cssClass, 'tipo_cpf' ) !== false ) {
+				if ( strpos( $field->cssClass, 'q11_tipo_cpf' ) !== false ) {
 					$msg_validacao = 'CPF inválido';
 				}
-				if ( strpos( $field->cssClass, 'tipo_cnpj' ) !== false ) {
+				if ( strpos( $field->cssClass, 'q11_tipo_cnpj' ) !== false ) {
 					$msg_validacao = 'CNPJ inválido';
 				}
 				
-				// Checa se o campo está oculto pela condicional lógica do GF
+				// 7 - Check if the field is hidden by GF conditional logic
 				$is_hidden = RGFormsModel::is_field_hidden( $form, $field, array() );
 				if ($is_hidden) {
 					continue;
@@ -64,6 +64,8 @@ if ( is_plugin_active('gravityforms/gravityforms.php') ) {
 			        	$validation_result['is_valid'] = false;
 
 			            $field->failed_validation = true;
+						
+			            //break;
 					}
 
 				} else {
@@ -73,6 +75,9 @@ if ( is_plugin_active('gravityforms/gravityforms.php') ) {
 		        	$validation_result['is_valid'] = false;
 
 		            $field->failed_validation = true;
+
+		            //break;
+
 				}
 							    
 			}
