@@ -18,7 +18,7 @@ Plugin original de JP Tibério: https://github.com/jptiberio/GravityForms-Valida
 
 ### Instalando o plugin
 
-*Este plugin deve ser instalado fazendo o upload para a pasta /plugins/ do seu WordPress.*
+**Este plugin deve ser instalado fazendo o upload para a pasta /plugins/ do seu WordPress.**
 
 - Faça o download do .zip
 - Descompacte o arquivo
