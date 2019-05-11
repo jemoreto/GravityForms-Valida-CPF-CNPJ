@@ -4,12 +4,14 @@
  *
  * Plugin Name: Gravity Forms Validação CPF CNPJ
  * Description: Plugin que habilita a validação de CPF e CNPJ
- * Author: JP Tibério
+ * Author: JP Tibério [com contribuição de John (João Elton Moreto)]
  * Original em: https://github.com/jptiberio/GravityForms-Valida-CPF-CNPJ
  * 
- * Adaptado por John - https://gist.github.com/jemoreto
+ */
+
+/* 
+ * Adaptado por John (João Elton Moreto) - https://gist.github.com/jemoreto
  * Ver o README para detalhes.
- * 
  */
 
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
