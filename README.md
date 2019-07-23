@@ -6,6 +6,7 @@
 - Para mensagem de erro específica para CPF, adicione também a classe "tipo_cpf" no campo de CPF.
 - Para mensagem de erro específica para CNPJ, adicione também a classe "tipo_cnpj" no campo de CNPJ.
 - Este plugin vai funcionar se você tiver *ambos* os campos CPF e CNPJ no mesmo formulário.
+- Este plugin vai funcionar em formulários multi-páginas.
 
 ### Adaptações a partir do original:
 
