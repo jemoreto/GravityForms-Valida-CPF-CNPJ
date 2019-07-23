@@ -39,9 +39,15 @@ if ( is_plugin_active('gravityforms/gravityforms.php') ) {
 					$msg_validacao = 'CNPJ inválido';
 				}
 				
-				// 7 - Check if the field is hidden by GF conditional logic
+				// Check if the field is hidden by GF conditional logic
 				$is_hidden = RGFormsModel::is_field_hidden( $form, $field, array() );
-				if ($is_hidden) {
+				
+				// Para formularios multi-páginas, checar se o campo está sendo exibido na página atual
+				$pagina_atual = rgpost( 'gform_source_page_number_' . $form['id'] ) ? rgpost( 'gform_source_page_number_' . $form['id'] ) : 1;
+				// Get the field's page number
+				$field_page = $field->pageNumber;
+				
+				if ($is_hidden || $field_page != $pagina_atual) {
 					continue;
 				}
 				
